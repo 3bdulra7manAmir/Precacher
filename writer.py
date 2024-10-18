@@ -1,0 +1,38 @@
+words = [
+    "ak47",
+    "ak47_digital_acog",
+    "ak47_digital_eotech",
+    "ak47_digital_grenadier",
+    "ak47_digital_reflex",
+    "ak47_reflex",
+    "ak47_shotgun",
+    "ak47_shotgun_attach",
+    "dragunov",
+    "fal_acog",
+    "fal_shotgun",
+    "fal_shotgun_attach",
+    "flare",
+    "gl_ak47_digital",
+    "p90",
+    "p90_acog",
+    "p90_eotech",
+    "p90_reflex",
+    "pp2000",
+    "rpd",
+    "rpd_acog",
+    "rpd_digital",
+    "rpd_digital_acog",
+    "rpd_digital_reflex",
+    "rpd_reflex",
+    "striker",
+    "striker_reflex",
+    "tavor_digital_acog",
+    "tavor_digital_eotech",
+    "tavor_mars",
+    "tavor_reflex",
+    "ump45_digital_acog",
+    "ump45_digital_eotech"
+]
+
+for word in words:
+    print(f'precacheitem("{word}");')
